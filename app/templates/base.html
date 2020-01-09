@@ -1,1 +1,27 @@
+<!DOCTYPE html>
 
+<html>
+    <head>
+        <title>Audio Video Extravaganza</title>
+        {% block ccs %} {% endblock %}
+    </head>
+
+    <body onload="onload()">
+        <p>
+            <a href="{{ url_for('index') }}">Home</a>
+            <a href="{{ url_for('audio') }}">Audio</a>
+            <a href="{{ url_for('video') }}">Video</a>
+        </p>
+        <hr>
+        {% block body %} {% endblock %}
+    
+    <script type="text/javascript">
+        // Set onload() default
+        onload = function() {
+            return 
+        };
+    </script>
+    {% block scripts %} {% endblock %}
+    </body>
+
+</html>
