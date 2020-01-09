@@ -1,6 +1,5 @@
 # Baby_Monitor
 A little baby monitor web app, so that you don't have to give some rando company a bunch of video of inside your house. Basically, it uses a computer's webcam (and eventually a raspberry pi's webcam) to stream video over a local router, so that other devices connected to the same router can get view the realtime footage. The intent is for parents to monitor their babies; don't be skeezy.
----
 ## Setting up the monitor
 1) Create a python3 virtual environment
 On windows this looks like:
