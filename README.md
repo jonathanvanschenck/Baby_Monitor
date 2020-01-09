@@ -20,9 +20,9 @@ then activate the enviromenment
 You will need to learn the server's external IP address (called the IPv4 address on windows). On windows, run:
 ```cmd
  > ipconfig
- some printed content
+
  IPv4 Address. . . . . . . . . . . : X.X.X.X
- more printed content
+
 ```
 Keep track of the X.X.X.X number.
 
