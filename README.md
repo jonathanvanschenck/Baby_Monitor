@@ -39,3 +39,10 @@ The terminal should then list something to the effect of:
  If this is your first time running the app, your computer's firewall may attempt to block python from hosting this server. On windows you will be prompted to grant python access--do so.
  ## Logging on to the server
  This part is simple: make sure you are connected to the same router as the server, then fire up the browser of your choice and access http://X.X.X.X:5000/ where 'X.X.X.X' is your server's external IP address from above.
+ 
+ ## To do list
+ * Add audio streaming functionality
+ * Coordinate AV streaming together
+ * Make it pretty with a some css formating
+ * Set up case formatting for if the client is as desktop or mobile
+ * Add instructions for setting a static ip address and domain name for the server, to make client log in more user friendly
