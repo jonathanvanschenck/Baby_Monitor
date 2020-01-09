@@ -26,8 +26,7 @@ You will need to learn the server's external IP address (called the IPv4 address
 ```
 Keep track of the X.X.X.X number.
 
-2) Starting the server
-To run the server, activate the virtual enviroment, and then run run.py:
+2) To run the server, activate the virtual enviroment, and then run run.py:
 ```cmd
   > venv\Scripts\Activate
  (venv) > python run.py
